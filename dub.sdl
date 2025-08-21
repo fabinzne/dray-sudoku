@@ -1,0 +1,9 @@
+name "sudoku"
+description "A minimal D application."
+authors "Fabiano Luiz Vieira da Silva"
+copyright "Copyright © 2025, Fabiano Luiz Vieira da Silva"
+license "proprietary"
+dependency "raylib-d" version="~>5.5.1"
+
+libs "raylib"
+lflags-linux "-lm" "-lpthread" "-lX11" "-lGL" "-ldl"

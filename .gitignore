@@ -1,0 +1,16 @@
+.dub
+docs.json
+__dummy.html
+docs/
+/sudoku
+sudoku.so
+sudoku.dylib
+sudoku.dll
+sudoku.a
+sudoku.lib
+sudoku-test-*
+*.exe
+*.pdb
+*.o
+*.obj
+*.lst
