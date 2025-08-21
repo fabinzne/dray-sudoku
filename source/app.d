@@ -43,7 +43,7 @@ struct SudokuGame {
 	}
 
 	void generateBoard() {
-      // Reset all arrays
+    // Reset all arrays
 		memset(board.ptr, 0, board.length * int.sizeof);
     memset(solution.ptr, 0, solution.length * int.sizeof);
     memset(initial.ptr, 0, initial.length * int.sizeof);
